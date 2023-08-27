@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(23,23,23,0.15);
+    position: absolute;
+    top: 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section{
+    width: 600px;
+    
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: Tahoma;
+    color: rgba(225,225,225,0.719);
+}
+
+.banner-container{
+   width: 100%;
+   height: 100vh;
+    background-image: url(./images/8228.png);
+    display: flex;
+    
+    
+}
+
+
+
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.left-section h1{
+    margin: 0;
+    color: aliceblue;
+    
+}
+
+.left-section p{
+    color: aliceblue;
+}
+
+
+
+button{
+    color:#2098ca;
+    background-color:white;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Right section*/
+
+.right-section{
+    color: black;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow: 0 5px 6px rgba(0,0,0,.219);
+}
+
+.right-section h4{
+    font-size: 200%;
+    color: grey;
+    font-weight: bold;
+    width: 300px;
+}
+
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.input-group label{
+    color: rgb(165,165,165);
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.input-group input{
+    border: none;
+   padding: 7px;
+   margin-top: 5px;
+    border-bottom: 1px solid #c9c9c98a;
+    outline: none;
+    color: #2098ca;
+    font-size: 18px;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label{
+    color: #2098ca;
+    top: -10px;
+}
+
+.input-group input:focus,
+.input-group input:valid{
+   border-color: #2098ca; 
+}
+
+.submit-button{
+    background-color: #2098ca;
+    color: white;
+    border: none;
+    padding:10px 0;
+    margin-top:15px ;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.button{
+    text-align: center;
+}
+
+.submit-button:hover{
+    box-shadow: 0 3px 6px silver;
+}
+
+.left-section{
+    align-self:flex-start ;
+    margin-top: 15%;
+}
+
+p{
+    font-size: 150%;
+}
+
+
